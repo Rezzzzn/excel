@@ -382,10 +382,13 @@ $number = isset($_GET['number']) ? $_GET['number'] : '';
                 </tbody>
               </table>
 
+              <form action="import.php" method="POST" enctype="multipart/form-data">
+                <input type="file" name="excel_file" class="form-control mb-2" accept=".xls, .xlsx" required>
+                <button type="submit" name="import" class="btn btn-success btn-sm">Import Excel</button>
+              </form>
               <div class="card-header d-flex justify-content-end align-items-center">
-                <a href="export_to_excel.php" class="btn btn-success btn-sm">Export to Excel</a>
+                <a href="export_to_excel.php" class="btn btn-success btn-sm me-2">Export to Excel</a>
               </div>
-
             </div>
           </div>
         </div>

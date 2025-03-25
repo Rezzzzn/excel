@@ -128,7 +128,7 @@ $result = $conn->query($sql);
                 src="../static/assets/img/user2-160x160.jpg"
                 class="user-image rounded-circle shadow"
                 alt="User Image" />
-              <span class="d-none d-md-inline">Rez</span>
+              <span class="d-none d-md-inline">k</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
               <!--begin::User Image-->
@@ -688,14 +688,14 @@ $result = $conn->query($sql);
       },
       fill: {
         opacity: 0.3,
-      },
+      },  
       yaxis: {
         min: 0,
       },
       colors: ['#DCE6EC'],
     };
 
-    const sparkline3 = new ApexCharts(document.querySelector('#sparkline-3'), option_sparkline3);
+    const sparkline3 = new ApexCharts(document.querySelector('#sparkline-3'), option_sparkline3); 
     sparkline3.render();
   </script>
   <!--end::Script-->
